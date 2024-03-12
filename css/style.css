@@ -126,16 +126,30 @@
     align-items: center;
     color: var(--color-blanco);
 }
-.carusel__img small,
-.carusel__img img{
+.carusel__img2{
+    min-width: 55%;
+    min-height: 40vh;
+    background: url(../storage/img/card2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-blanco);
+}
+.carusel__img small, .carusel__img2 small,
+.carusel__img img, .carusel__img2 img{
     position: absolute;
 }
-.carusel__img small{
+.carusel__img small, .carusel__img2 small{
     top: 20px;
     right: 20px;
 }
 
-.carusel__img img{
+.carusel__img img, .carusel__img2 img{
     left: 20px;
     bottom: 20px;
 }
