@@ -124,7 +124,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: var(--color-ternario);
+    color: var(--color-blanco);
 }
 .carusel__img small,
 .carusel__img img{
