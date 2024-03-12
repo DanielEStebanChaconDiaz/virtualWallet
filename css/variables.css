@@ -3,7 +3,7 @@
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf);
 }
 :root{
-    --color-primary: #00DDA3;
-    --color-secundary: #33404F;
+    --color-primary: #dd12d3;
+    --color-secundary: #9b00e2;
     --color-icon: #fff;
 }
