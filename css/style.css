@@ -20,6 +20,7 @@
 .logo{
     grid-area: logo;
     gap: 10px;
+    object-fit: contain;
     /* */
 
 
@@ -32,6 +33,7 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     font-family:"SF-Pro-Text-Bold" ;
+    color: var(--color-primary);
 
 
 }
